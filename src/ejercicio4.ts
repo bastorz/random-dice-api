@@ -1,5 +1,5 @@
 const phraseWithALotOfA = 'La vaca avanza hacia la pradera';
-const countAppearances = (str, char) => {
+const countAppearances = (str: string , char: string) => {
     
    let count = 0;
 
