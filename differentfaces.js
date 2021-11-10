@@ -1,6 +1,5 @@
 function throwDice() {
-    
-    for (const i = 0; i < 100; i++)
+    return Math.ceil(Math.random() * 100)
+  }
 
-    console.log(throwDice);
-}
+  console.log(throwDice());
