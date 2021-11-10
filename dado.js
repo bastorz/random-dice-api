@@ -3,5 +3,3 @@ function throwDice() {
   }
 
   console.log(throwDice());
-
-
