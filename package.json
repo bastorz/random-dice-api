@@ -8,7 +8,8 @@
     "start": "node index.js",
     "startdice": "node dado.js",
     "startfaces": "node differentfaces.js",
-    "startword": "node ejercicio3.js"
+    "startword": "node ejercicio3.js",
+    "startletter": "node ejercicio4.js"
   },
   "keywords": [],
   "author": "",
