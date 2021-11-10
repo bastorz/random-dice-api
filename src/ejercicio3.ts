@@ -1,4 +1,4 @@
-function WordCounter(word) {
+function WordCounter(word: string) {
     return word.split(" ").length;
 }
   
