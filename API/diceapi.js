@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+app.use(express.json());
 
 let throwDice = Math.floor(Math.random(1) * 6);
 
