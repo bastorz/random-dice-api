@@ -1,5 +1,5 @@
-export function throwDice() {
-    return Math.ceil(Math.random() * 100)
+export const throwDices = (face: number): number => {
+    return Math.ceil(Math.random() * (face + 1))
   }
 
-  console.log(throwDice());
+  console.log(throwDices(2));

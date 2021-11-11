@@ -2,15 +2,16 @@
   "name": "projectjs",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js",
-    "start:server": "node server.js",
+    "start": "node server.js",
+    "start:index": "node src/index.js",
     "dev": "nodemon server.js",
-    "startdice": "node dado.js",
-    "startfaces": "node differentfaces.js",
-    "startword": "node ejercicio3.js",
-    "startletter": "node ejercicio4.js"
+    "startdice": "node src/ejercicio1.ts",
+    "startfaces": "node src/ejercicio2.ts",
+    "startword": "node src/ejercicio3.ts",
+    "startletter": "node src/ejercicio4.ts",
+    "dado": "node API/ejercicio1dia2.js"
   },
   "keywords": [],
   "author": "",
