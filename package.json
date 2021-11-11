@@ -11,7 +11,7 @@
     "startfaces": "node src/ejercicio2.ts",
     "startword": "node src/ejercicio3.ts",
     "startletter": "node src/ejercicio4.ts",
-    "dado": "node API/ejercicio1dia2.js"
+    "dado": "node API/diceapi.js"
   },
   "keywords": [],
   "author": "",
